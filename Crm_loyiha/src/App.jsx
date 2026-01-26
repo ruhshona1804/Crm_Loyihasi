@@ -6,9 +6,9 @@ function App() {
 
   return (
     <>
-    <Routes>
      <Nav/>
-    <Route/>
+    <Routes>
+    <Route path="/haridor"/>
     </Routes>
     </>
   )

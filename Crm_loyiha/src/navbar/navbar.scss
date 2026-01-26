@@ -1,5 +1,18 @@
-.nav{
-    width: 450px;
-    height: 100vh;
+.pagenav{
+    width: 250px;
+    height: 95vh;
     border: 1px solid red;
+    background-color: #fff;
+    border-radius: 20px;
+    position: fixed;
+    
+    ul li{
+        display: flex;
+        align-items: center;
+        list-style: none;
+    }
+    li img{
+        width: 24px;
+        height: 24px;
+    }
 }
